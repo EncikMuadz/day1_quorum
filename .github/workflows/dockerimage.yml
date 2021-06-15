@@ -15,4 +15,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
+<<<<<<< HEAD
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+=======
+      run: docker-compose up -D
+>>>>>>> a1f3fcd2a3727be67decfc423b6485c2bcb0fa45
