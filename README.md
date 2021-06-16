@@ -4,3 +4,4 @@
 
 ### Plan
     - Test quorum environment - `DONE`
+    - Find use case - `ONGOING`
